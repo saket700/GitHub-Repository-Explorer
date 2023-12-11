@@ -1,0 +1,102 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Snapshot testing suite > Matches DOM Snapshot 1`] = `
+<div
+  className="m-auto max-w-[900px]"
+>
+  <label
+    className="text-sm font-medium leading-6 text-gray-900 flex justify-center"
+    htmlFor="github_username"
+  >
+    Github Explorer Repository
+  </label>
+  <div
+    className="flex flex-col md:flex-row md:items-center"
+  >
+    <div
+      className="pt-4 max-w-2xl w-full"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <label
+          className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+          htmlFor="default-search"
+        >
+          Search
+        </label>
+        <div
+          className="relative hover:bg-transparent hover:border-transparent hover:text-white"
+        >
+          <input
+            aria-label="search"
+            className="block w-full p-2 ps-3 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50  dark:placeholder-gray-400"
+            id="username"
+            onChange={[Function]}
+            placeholder="Find a repository"
+            required={true}
+            value=""
+          />
+          <button
+            className="text-white absolute end-2.5 bottom-1.5 font-medium rounded-lg text-sm px-4 py-1 pt-[20px]"
+            data-testid="Search"
+            type="submit"
+          >
+            <div
+              className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none "
+            >
+              <svg
+                aria-hidden="true"
+                className="w-4 h-4 text-gray-500 dark:text-gray-400"
+                fill="none"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div
+      className="ml-4 mt-[16px]"
+    >
+      <select
+        className="bg-gray-50 border border-gray-300 text-sm rounded-lg block w-full p-4 text-black bottom-1.5 end-2.5 py-[10px]"
+        disabled={true}
+        id="github_repo"
+        onChange={[Function]}
+      >
+        <option
+          value="Last updated"
+        >
+          Last updated
+        </option>
+        <option
+          value="Name"
+        >
+          Name
+        </option>
+        <option
+          value="Stars"
+        >
+          Stars
+        </option>
+      </select>
+    </div>
+  </div>
+  <div
+    className="pt-8"
+  />
+  <div
+    className="w-full flex justify-center"
+  />
+</div>
+`;
