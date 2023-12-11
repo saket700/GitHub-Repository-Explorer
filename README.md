@@ -11,7 +11,7 @@ GitHub repository explorer that allows users to search for GitHub repositories o
 ### Installing
 
 * extract/download the project and go inside the root level of the project. Eg : github-repository-explorer.
-* run command yarn
+* run command yarn for installation for dependencies.
 
 ### Executing program
 
